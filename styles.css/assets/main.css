@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0 box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grid-container {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sign-in {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* header*/
+.logo {
+    font-size: 19px;
+    font-family: Helvetica;
+    font-weight: 600;
+    text-decoration: none;
+    color: #ea0028;
+
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+
+}
+
+.separacion {
+    margin-right: 3px;
+}
+
+.separacion1 {
+    margin-left: 3px;
+}
+
+.registro {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+
+.link-de-registro {
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #ea0028;
+    text-decoration: none;
+
+}
+
+
+.navegacion {
+    display: flex;
+    background-color: #ea0028;
+    padding: 10px;
+}
+
+.nav-text {
+    margin-right: 60px;
+    text-decoration: none;
+    background-color: #ea0028;
+    font-family: sans-serif;
+    color: white;
+    font-size: 34px;
+    line-height: 34px;
+}
+
+/*header fin*/
+
+h2 {
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-display: inherit;
+    font-size: 54px;
+}
+
+.h2-centrado {
+    display: flex;
+    justify-content: center;
+}
+
+.article1 img {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.h3-article1 {
+    font-size: 40px;
+    font-family: helvetica;
+    font-weight: 200;
+    line-height: 35px;
+}
+
+.post-second-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.texto-de-articulo {
+    font-family: helvetica;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.post-columns {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+
+.post-columns img {
+    width: 100%;
+}
+
+.image-column2 {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.show-more {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin-bottom: 200px;
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500px;
+    font-style: bold;
+    color: white;
+    background-color: black;
+
+}
+
+.footer1 {
+    display: flex;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+
+.footer2 {
+    font-family: sans-serif;
+    font-size: 13px;
+    display: flex;
+}
+
+.footer3-redessociales {
+    display: flex;
+    justify-content: end;
+
+}
